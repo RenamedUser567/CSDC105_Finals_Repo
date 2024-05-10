@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="ESCHOLAR - University Search">
+        <div class="head1"> 
+            <a href="#home">HOME</a>
+            <a href="#teachings">COMPARE</a>
+            <a href="library">ABOUT US</a>
+        </div>
+
+    </header>
+    <div class="container">
+        <div class="sidebar">
+            <h3>Filters</h3>
+            <select id="filter-location">
+                <option value="all">All Locations</option>
+                <option value="State 1">State 1</option>
+                <option value="State 2">State 2</option>
+            </select>
+            <select id="filter-course">
+                <option value="all">All Courses</option>
+                <option value="Engineering">Engineering</option>
+                <option value="Computer Science">Computer Science</option>
+            </select>
+        </div>
+        <div class="content">
+            <div class="search-bar">
+                <input type="text" id="search-box" placeholder="Enter your chosen course/Search for your school">
+            </div>
+            <ul id="university-list"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
