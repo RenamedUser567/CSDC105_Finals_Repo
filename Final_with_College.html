@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escholar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="header">
+        <h1>Escholar</h1>
+        <div>
+            <button class="button">Home</button>
+            <button class="button">Compare</button>
+            <button class="button">About Us</button>
+            <button class="button"><img src="profile.png" alt="Profile" style="width: 20px; height: 20px;"></button>
+        </div>
+    </div>
+
+    <div class="sidebar">
+        <div class="filter">
+            <h2>Filter</h2> <hr><br>
+            <form>
+                <label for="Course">Course</label> <br>
+                <select id="Course">
+                    <option value="none">none</option>
+                    <option value="BSIT">BSIT</option>
+                    <option value="BSCS">BSCS</option>
+                    <option value="BSIS">BSIS</option>
+                    <option value="BSN">BSN</option>
+                    <option value="BSBA">BSBA</option>
+                </select> <br>
+                
+                <label for="Tuition">Tuition</label> <br>
+                <select id="Tuition">
+                    <option value="none">none</option>
+                    <option value="10000-20000">10000-20000</option>
+                    <option value="30000-40000">30000-40000</option>
+                    <option value="50000-75000">50000-75000</option>
+                    <option value="75000-100000">75000-100000</option>
+                </select><br>
+
+                <label for="Location">Location</label> <br>
+                <select id="Location">
+                    <option value="none">none</option>
+                    <option value="NCR">NCR</option>
+                    <option value="Region 5">Region 5</option>
+                </select> <br>
+                
+                <label for="Board">Board Passing</label> <br>
+                <select id="Board">
+                    <option value="none">none</option>
+                    <option value="25">25%</option>
+                    <option value="50">50%</option>
+                    <option value="75">75%</option>
+                    <option value="100">100%</option>
+                </select> <br>
+
+              
+                <input type="reset" style="margin-right: 88px;">
+                <input type="submit">
+            </form>
+        </div>
+    </div>
+
+    <div class="content">
+        <form action="#" method="get">
+            <input type="text" class="search-bar" placeholder="Search...">
+            <button type="submit" class="search-button">Search</button>
+        </form>
+        
+        <div class="heading-container">
+            <div class="ADNU_Box">
+                <div class="Rectangle1"></div>
+                <div class="Rectangle2"></div>
+                <img class="Logo1" src="https://via.placeholder.com/100x100" />
+                <div class="AteneoDeManilaUniversity">Ateneo de Manila University</div>
+                <div class="Address1">Katipunan Ave, Quezon City, 1108 Metro Manila</div>
+                <div class="ChosenCourse1">Computer Science</div>    
+                <div class="Tuition1">Tuition: ₱50,000 - 150,000</div>
+                <div class="Compare1">
+                    <button class="AddToCompare1">Add to compare</button>
+                </div>
+            </div>
+
+            <div class="DLSU_Box">
+                <div class="Rectangle3"></div>
+                <div class="Rectangle4"></div>
+                <div class="DeLaSalleUniversity">De La Salle University</div>
+                <div class="Address2">2401 Taft Ave, Malate, Manila, 1004 Metro Manila</div>
+                <img class="Image2"src="https://via.placeholder.com/100x100" />
+                <div class="ChosenCourse2">Computer Science</div>
+                <div class="Tuition2">Tuition: ₱50,000 - 150,000</div>
+                <div class="Compare2">
+                    <button class="AddToCompare2">Add to compare</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+</html>
